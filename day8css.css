@@ -1,0 +1,125 @@
+ body {
+    background-color: lightblue;
+    text-align: center;
+    font-size:16px;
+    background: linear-gradient(to right, #89c2d9, #468faf);
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.skyline {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.R {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.back:hover {
+  background-color: darkviolet;
+}
+ul {
+  list-style-position: inside;
+  padding:0 ;
+  margin:0 ;
+}
+img {
+  width: 90%;
+  max-width: 500px; 
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+header {
+  background-color: #222;
+  padding: 10px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: initial;
+  height: 50px;
+}
+
+header a {
+  color: white;
+  margin:0 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 50px;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+p {
+  text-align: center;
+  line-height: 0.95;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(45deg, #a100ff, #ff00c8);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: darkviolet;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.container {
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 30px;
+}
+* {
+  font-size: 16px;
+}
+.product-card {
+  background-color: white;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.product-card img {
+  width: 90%;
+  max-width: 300px;
+}
+.kajogaki {
+  text-align: left;
+}
+html {
+  scrollbar-gutter: stable;
+}
