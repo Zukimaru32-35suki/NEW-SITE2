@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <title>redirect</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZGQL32339"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -10,13 +11,21 @@
 
   gtag('config', 'G-7ZGQL32339');
 </script>
-  <meta http-equiv="refresh" content="2;url=https://amzn.asia/d/05HpC1s0">
-  <title>移動中...</title>
 </head>
 <body>
-  <p>外部サイトへ移動します...</p>
-  <script>
-  console.log("Rainy75クリックされました");
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const from = params.get("from");
+
+// 行き先をここで設定
+if (from === "amazon") {
+  window.location.href = "https://amzn.asia/d/07RSbxkm";
+} else if (from === "rakuten") {
+  window.location.href = "https://biccamera.rakuten.co.jp/item/6974367091183/?variantId=6974367091183&ultra_crid=6974367091183&scid=s_kwa_pla_unpaid_567170&srsltid=AfmBOoobkHO3QcgVajpcmMijaOBftmk_yjBuhbheonnC4k12RsIYtbcSRPA";
+} else {
+  document.body.innerHTML = "<h2>リンクが無効です</h2>";
+}
 </script>
 </body>
 </html>
